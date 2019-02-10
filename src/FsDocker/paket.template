@@ -1,0 +1,29 @@
+type file
+id FsDocker
+title
+    FsDocker
+owners
+    Timo Muehlhaus
+authors 
+    Timo Muehlhaus
+projectUrl
+    https://github.com/CSBiology/FsDocker
+iconUrl
+    https://raw.githubusercontent.com/CSBiology/FsDocker/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/CSBiology/FsDocker/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+language
+    F#
+copyright
+    Copyright 2017
+tags
+    Docker F#
+summary
+    F# Client for Docker Remote API based on Docker.DotNet Project
+description
+    F# Client for Docker Remote API based on Docker.DotNet Project
+
+files
+	../../bin/FsDocker ==> lib
