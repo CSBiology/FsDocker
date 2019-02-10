@@ -89,43 +89,43 @@ module TemporaryDocumentationHelpers =
 
 // The name of the project
 // (used by attributes in AssemblyInfo, name of a NuGet package and directory in 'src')
-let project = "FSharpGephiStreamer"
+let project = "FsDocker"
 
-// Short summary of the project
+ // Short summary of the project
 // (used as description in AssemblyInfo and as a short summary for NuGet package)
-let summary = "F# functions for streaming any kind of graph/network data to the network visualization tool gephi"
+let summary = "F# Client for Docker Remote API based on Docker.DotNet Project"
 
-// Longer description of the project
+ // Longer description of the project
 // (used as a description for NuGet package; line breaks are automatically cleaned up)
-let description = "F# functions for streaming any kind of graph/network data to the network visualization tool gephi"
+let description = "F# Client for Docker Remote API based on Docker.DotNet Project"
 
-// List of author names (for NuGet package)
-let author = "Timo Mühlhaus"
+ // List of author names (for NuGet package)
+let author = "Timo Muehlhaus"
 
-// Tags for your project (for NuGet package)
-let tags = "FSharp F# graph visualization GephiStreamer exploratory-data-analysis"
+ // Tags for your project (for NuGet package)
+let tags = "Docker F#"
 
-// File system information
-let solutionFile  = "FSharpGephiStreamer.sln"
+ // File system information
+let solutionFile  = "FsDocker.sln"
 
-// Default target configuration
+ // Default target configuration
 let configuration = "Release"
 
-// Pattern specifying assemblies to be tested using Expecto
+ // Pattern specifying assemblies to be tested using Expecto
 let testAssemblies = "tests/**/bin" </> configuration </> "**" </> "*Tests.exe"
 
-// Git configuration (used for publishing documentation in gh-pages branch)
+ // Git configuration (used for publishing documentation in gh-pages branch)
 // The profile where the project is posted
 let gitOwner = "CSBiology"
 let gitHome = sprintf "%s/%s" "https://github.com" gitOwner
 
-// The name of the project on GitHub
-let gitName = "FSharpGephiStreamer"
+ // The name of the project on GitHub
+let gitName = "FsDocker"
 
-// The url for the raw files hosted
+ // The url for the raw files hosted
 let gitRaw = Environment.environVarOrDefault "gitRaw" "https://raw.githubusercontent.com/CSBiology"
 
-let website = "/FSharpGephiStreamer"
+let website = "/FsDocker"
 
 // --------------------------------------------------------------------------------------
 // END TODO: The rest of the file includes standard build steps
